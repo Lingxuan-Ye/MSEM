@@ -6,6 +6,7 @@ _[!_]*
 _*/*
 ?.py
 ?.ipynb
+*.pdf
 
 ## Exclude (not ignore)
 !*.sh
