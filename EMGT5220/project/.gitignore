@@ -1,0 +1,11 @@
+# temp file created by Word, Excel, etc.
+~$*
+
+# ignore scripts named with chars that less than 2
+*.sh
+*.py
+*.ipynb
+
+!*??.sh
+!*??.py
+!*??.ipynb

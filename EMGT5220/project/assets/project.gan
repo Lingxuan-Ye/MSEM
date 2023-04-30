@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-05-29" view-index="2" gantt-divider-location="786" resource-divider-location="300" version="3.2.3230" locale="en">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="509" order="0"/>
+        <field id="tpd4" name="Begin date" width="74" order="1"/>
+        <field id="tpd6" name="Duration" width="126" order="2"/>
+        <field id="tpd5" name="End date" width="76" order="3"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Start" color="#8cb6ce" meeting="true" start="2023-06-01" duration="0" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="1 - Project Initiation" color="#8cb6ce" meeting="true" start="2023-06-01" duration="0" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="1.a - Identifying the project requirements and objectives" color="#8cb6ce" meeting="false" start="2023-06-01" duration="5" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="1.b - Defining the project scope and constraints" color="#8cb6ce" meeting="false" start="2023-06-08" duration="3" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="1.c - Assessing the project feasibility" color="#8cb6ce" meeting="false" start="2023-06-13" duration="3" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="1.d - Identifying the stakeholders and securing their involvement" color="#8cb6ce" meeting="false" start="2023-06-16" duration="3" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="2 - Developing the project charter" color="#8cb6ce" meeting="true" start="2023-06-21" duration="0" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="2.a - Developing the project schedule" color="#8cb6ce" meeting="false" start="2023-06-21" duration="1" complete="0" thirdDate="2023-05-29" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="2.b - Developing the project budget" color="#8cb6ce" meeting="false" start="2023-06-22" duration="2" complete="0" thirdDate="2023-06-21" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="2.c - Developing the risk management plan" color="#8cb6ce" meeting="false" start="2023-06-26" duration="2" complete="0" thirdDate="2023-06-21" thirdDate-constraint="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="2.d - Developing the quality management plan" color="#8cb6ce" meeting="false" start="2023-06-28" duration="2" complete="0" thirdDate="2023-06-21" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="3 - Hardware selection and testing" color="#8cb6ce" meeting="true" start="2023-06-30" duration="0" complete="0" thirdDate="2023-06-21" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="3.a - Select and test host machines" color="#8cb6ce" meeting="false" start="2023-06-30" duration="7" complete="0" thirdDate="2023-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="3.b - Optimize I/O device pairing" color="#8cb6ce" meeting="false" start="2023-06-30" duration="7" complete="0" thirdDate="2023-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="3.c - Test compatibility between server and terminals" color="#8cb6ce" meeting="false" start="2023-07-11" duration="7" complete="0" thirdDate="2023-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="4 - Hardware installation research" color="#8cb6ce" meeting="true" start="2023-07-20" duration="0" complete="0" thirdDate="2023-06-30" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="4.a - Establish installation standards" color="#8cb6ce" meeting="false" start="2023-07-20" duration="3" complete="0" thirdDate="2023-06-16" thirdDate-constraint="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" name="4.b - Develop interior renovation plans" color="#8cb6ce" meeting="false" start="2023-07-20" duration="2" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="5 - Software" color="#8cb6ce" meeting="true" project="true" start="2023-07-20" duration="0" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="5.a - Choose operating system" color="#8cb6ce" meeting="false" start="2023-07-20" duration="1" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" name="5.b - List pre-install office applications" color="#8cb6ce" meeting="false" start="2023-07-21" duration="2" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="5.c - Virtualization technology research" color="#8cb6ce" meeting="false" start="2023-07-21" duration="3" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="5.d - System image creation" color="#8cb6ce" meeting="false" start="2023-07-26" duration="1" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="6 - Deployment strategy research" color="#8cb6ce" meeting="false" start="2023-07-27" duration="2" complete="0" thirdDate="2023-07-20" thirdDate-constraint="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="7 - Pricing" color="#8cb6ce" meeting="true" start="2023-07-31" duration="0" complete="0" thirdDate="2023-06-29" thirdDate-constraint="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="7.a - Develop service packages" color="#8cb6ce" meeting="false" start="2023-07-31" duration="2" complete="0" thirdDate="2023-06-29" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="7.b - Create pricing plans" color="#8cb6ce" meeting="false" start="2023-08-02" duration="1" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="8 - Write O&amp;M Documentation" color="#8cb6ce" meeting="false" start="2023-07-31" duration="3" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="End" color="#8cb6ce" meeting="true" start="2023-08-03" duration="0" complete="0" thirdDate="2023-07-07" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
